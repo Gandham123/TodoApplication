@@ -1,0 +1,70 @@
+.main-container{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px; 
+}
+.input-field-styling{
+  height: 40px;
+  width: 400px;
+  padding: 8px 20px 8px 20px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 450;
+  color: #323f4b;
+  border:1px solid gray;
+  border-radius: 8px;
+  margin-right: 25px;
+}
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.add-button-styling{
+  height: 35px;
+  width: 100px;
+  border-width:0px;
+  background-color: rgb(255, 81, 0);
+  border-radius: 8px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.buttons-contianer{
+  display:  flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.incomplete-heading-styling{
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 450;
+  color: #ffffff;
+  margin-left: 100px;
+}
+.image-styling{
+  height: 300px;
+}
+.not-found-heading-styling{
+   font-family: 'Roboto';
+   font-size: 25px;
+   font-weight: 450;
+   color: #ffffff;
+   margin-top: -30px;  
+}
+.edit-input-styling{
+  height: 40px;
+  padding: 8px 20px 8px 20px;
+  border-width: 1px solid gray;
+  width: 300px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #323f4b;
+}

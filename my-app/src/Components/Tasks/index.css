@@ -1,0 +1,30 @@
+.tasks-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.input-checkbox-styling{
+    height: 25px;
+    width: 25px;
+    border-radius: 8px;
+    border: 1px solid rgb(174, 170, 170);
+}
+.task-container{
+    height: 50px;
+    min-width: 500px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 25px 12px 25px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.task-text-styling{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 450;
+    color: #323f4b;
+}
